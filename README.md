@@ -133,30 +133,6 @@ The project includes a plotting module that generates several graphs from the pe
 
 ---
 
-## Project Structure
-
-Tor-Network-with-RL/
-│
-├── generate_keys.py        # Generates AES keys and network addresses for all nodes
-├── keys.json               # Stores keys and socket addresses for all nodes
-│
-├── run_all_nodes.py        # Launcher: starts all 12 relay nodes + destination
-├── node.py                 # Relay node logic: decrypt, forward, trust update
-├── destination.py          # Final destination: decrypt and acknowledge
-├── sender.py               # RL agent + onion encryption + congestion simulation
-│
-├── plot_graphs.py          # Generates all result graphs from the performance log
-│
-├── logs/
-│   └── performance_log.csv # Episode-by-episode transmission log
-│
-├── Trust scores/
-│   └── trust_<node>.json   # Per-node trust scores for downstream hops
-│
-├── route_qtable.json        # Persisted Q-table for the routing agent
-│
-└── Results/                 # Output graphs and visualizations
-
 
 ---
 
