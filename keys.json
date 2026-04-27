@@ -1,0 +1,47 @@
+{
+  "keys": {
+    "L1_NodeA": "WsuMum5PZsbCY6pjvM6m2A==",
+    "L1_NodeB": "GPE9Rb7w3LgQJFTmgrfXIQ==",
+    "L1_NodeC": "fVXBlw6zUgJzD4j59ijZEQ==",
+    "L1_NodeD": "5278YpQ96wX5THyDoFckaw==",
+    "L2_NodeA": "+/PsmpJj4aUmXhhn/3nwUw==",
+    "L2_NodeB": "j1A63Zl2TZmRF6Qs22n+tw==",
+    "L2_NodeC": "2w9FFs+70MrtARBRfAV6hw==",
+    "L2_NodeD": "rsO0kgFp8vs5W8VV1DcaqA==",
+    "L3_NodeA": "rkD2BA/JEyK5WlrNZJT5iw==",
+    "L3_NodeB": "6vQosboOm1/q+1hQrtx1lw==",
+    "L3_NodeC": "ypR0UzHP6T1+L9cfsKJUkA==",
+    "L3_NodeD": "XKCxEyNz/LoFwMXncorBzw==",
+    "Destination": "hF+r0ea8nuZJejgunCQuxA=="
+  },
+  "addrs": {
+    "L1_NodeA": ["127.0.0.1", 8001],
+    "L1_NodeB": ["127.0.0.1", 8002],
+    "L1_NodeC": ["127.0.0.1", 8003],
+    "L1_NodeD": ["127.0.0.1", 8004],
+    "L2_NodeA": ["127.0.0.1", 8011],
+    "L2_NodeB": ["127.0.0.1", 8012],
+    "L2_NodeC": ["127.0.0.1", 8013],
+    "L2_NodeD": ["127.0.0.1", 8014],
+    "L3_NodeA": ["127.0.0.1", 8021],
+    "L3_NodeB": ["127.0.0.1", 8022],
+    "L3_NodeC": ["127.0.0.1", 8023],
+    "L3_NodeD": ["127.0.0.1", 8024],
+    "Destination": ["127.0.0.1", 9000]
+  },
+  "behavior": {
+    "L1_NodeA": {"drop_prob": 0.01, "delay_mean": 0.01, "delay_std": 0.005, "capacity": 15},
+    "L1_NodeB": {"drop_prob": 0.05, "delay_mean": 0.04, "delay_std": 0.02, "capacity": 5},
+    "L1_NodeC": {"drop_prob": 0.02, "delay_mean": 0.02, "delay_std": 0.01, "capacity": 10},
+    "L1_NodeD": {"drop_prob": 0.10, "delay_mean": 0.05, "delay_std": 0.02, "capacity": 5},
+    "L2_NodeA": {"drop_prob": 0.02, "delay_mean": 0.03, "delay_std": 0.01, "capacity": 8},
+    "L2_NodeB": {"drop_prob": 0.08, "delay_mean": 0.05, "delay_std": 0.02, "capacity": 6},
+    "L2_NodeC": {"drop_prob": 0.03, "delay_mean": 0.02, "delay_std": 0.01, "capacity": 12},
+    "L2_NodeD": {"drop_prob": 0.01, "delay_mean": 0.01, "delay_std": 0.005, "capacity": 15},
+    "L3_NodeA": {"drop_prob": 0.02, "delay_mean": 0.02, "delay_std": 0.01, "capacity": 8},
+    "L3_NodeB": {"drop_prob": 0.06, "delay_mean": 0.05, "delay_std": 0.02, "capacity": 5},
+    "L3_NodeC": {"drop_prob": 0.04, "delay_mean": 0.03, "delay_std": 0.01, "capacity": 10},
+    "L3_NodeD": {"drop_prob": 0.01, "delay_mean": 0.01, "delay_std": 0.005, "capacity": 12},
+    "Destination": {"drop_prob": 0.0, "delay_mean": 0.01, "delay_std": 0.005, "capacity": 50}
+  }
+}
